@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram name="Profile Page Wireframe" id="wireframe3">
+        <mxGraphModel dx="816" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="frame" value="Profile Page (profile.html) — Wireframe" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;verticalAlign=top;fontSize=14;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="20" width="760" height="1330" as="geometry"/>
+                </mxCell>
+                <mxCell id="header" value="HEADER&#xa;&#xa;Student Profile&#xa;Personal and Academic Details" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="60" width="720" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="nav" value="NAV:  ← Back to Home Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#666666;fontSize=11;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="140" width="720" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr1" value="" style="line;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="185" width="720" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="summarySection" value="SECTION: Profile Summary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;verticalAlign=top;fontSize=12;fontStyle=1;align=left;spacingLeft=8;spacingTop=6;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="205" width="720" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="profileImg" value="[ Profile Photo ]&#xa;100x100" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#AAAAAA;dashed=1;fontSize=11;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="240" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="profileText" value="H2: Student Name&#xa;&#xa;Computer Science Student | Web Development &amp; Algorithms Enthusiast" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=11;verticalAlign=middle;align=left;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="240" width="560" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr2" value="" style="line;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="355" width="720" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="detailsSection" value="SECTION: Personal Details" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;verticalAlign=top;fontSize=12;fontStyle=1;align=left;spacingLeft=8;spacingTop=6;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="375" width="720" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="row1th" value="Full Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=10;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="405" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row1td" value="Student Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=middle;align=left;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="405" width="320" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row2th" value="Roll Number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=10;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="440" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row2td" value="D26DCE155" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=middle;align=left;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="440" width="320" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row3th" value="Course" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=10;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="475" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row3td" value="B.Tech in Computer Science &amp; Engineering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=middle;align=left;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="475" width="320" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row4th" value="Year" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=10;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="510" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row4td" value="2nd Year" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=middle;align=left;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="510" width="320" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row5th" value="Email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFEFEF;strokeColor=#999999;fontSize=10;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="545" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="row5td" value="student@email.com (link)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=middle;align=left;spacingLeft=8;fontColor=#3366CC;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="545" width="320" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr3" value="" style="line;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="655" width="720" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="editSection" value="SECTION: Edit Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;verticalAlign=top;fontSize=12;fontStyle=1;align=left;spacingLeft=8;spacingTop=6;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="675" width="720" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblName" value="Label: Full Name:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=10;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="705" width="200" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="inputName" value="[ Enter your full name                    ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=middle;align=left;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="725" width="640" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblBio" value="Label: Short Bio:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=10;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="765" width="200" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="textareaBio" value="[ Tell us about yourself                  ]&#xa;&#xa;(multi-line textarea, 4 rows)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=10;verticalAlign=top;align=left;spacingLeft=8;spacingTop=6;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="785" width="640" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="btnSave" value="[ Save Changes ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFF;strokeColor=#3366CC;fontSize=11;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="905" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr4" value="" style="line;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="965" width="720" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="ctaSection" value="SECTION: Portfolio Call-to-Action&#xa;&#xa;&quot;Want to see the detailed work?&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=11;verticalAlign=top;align=center;spacingTop=6;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="985" width="720" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ctaLink" value="👉 [ Visit My Portfolio Page ] (link)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEBFF;strokeColor=#3366CC;fontSize=11;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1025" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr5" value="" style="line;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1075" width="720" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="footer" value="FOOTER&#xa;Copyright © 2026 Student Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#666666;fontSize=11;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1095" width="720" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

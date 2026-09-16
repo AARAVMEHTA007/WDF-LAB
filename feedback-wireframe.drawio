@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2026-08-09T00:00:00.000Z" agent="Claude" version="24.0.0" type="device">
+  <diagram name="Feedback Page Wireframe" id="feedback-wireframe">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Page frame -->
+        <mxCell id="frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="700" height="1240" as="geometry" />
+        </mxCell>
+
+        <!-- Header -->
+        <mxCell id="header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="700" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" value="H1: Feedback" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hsub" value="Your thoughts help improve this site" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="700" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Nav -->
+        <mxCell id="nav" value="← Back to Home Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;align=left;spacingLeft=10;fontColor=#1155CC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="700" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- HR -->
+        <mxCell id="hr1" value="" style="line;strokeWidth=1;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="700" height="10" as="geometry" />
+        </mxCell>
+
+        <!-- Main section: Share Your Feedback -->
+        <mxCell id="mainBox" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="700" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="H2: Share Your Feedback" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Form fields -->
+        <mxCell id="lblName" value="Your Name:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="255" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inputName" value="Enter your name" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;align=left;spacingLeft=8;fontColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="278" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lblEmail" value="Your Email:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inputEmail" value="name@example.com" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;align=left;spacingLeft=8;fontColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="343" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lblRating" value="Overall Rating:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="385" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="selectRating" value="Excellent &#9660;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;align=left;spacingLeft=8;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="408" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lblComments" value="Comments:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="textareaComments" value="What did you like? What can be improved?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="473" width="400" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="btnSubmit" value="Submit Feedback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="605" width="160" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- HR -->
+        <mxCell id="hr2" value="" style="line;strokeWidth=1;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="700" height="10" as="geometry" />
+        </mxCell>
+
+        <!-- Thank you section -->
+        <mxCell id="thankYou" value="Thank you for taking the time to help improve this site!" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="940" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- HR -->
+        <mxCell id="hr3" value="" style="line;strokeWidth=1;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="700" height="10" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1020" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="footerText" value="Copyright © 2026 Student Name" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1030" width="700" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

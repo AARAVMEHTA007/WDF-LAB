@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-06T00:00:00.000Z" agent="Claude" version="22.1.0" type="device">
+  <diagram id="contact-wireframe" name="Contact Page Wireframe">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Header -->
+        <mxCell id="header" value="HEADER&#10;Contact Me&#10;Get in touch for collaborations, questions, or feedback" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="20" width="600" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Nav -->
+        <mxCell id="nav" value="NAV: ← Back to Home Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="125" y="100" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- HR 1 -->
+        <mxCell id="hr1" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxPoint x="125" y="145" as="sourcePoint" />
+          <mxPoint x="725" y="145" as="targetPoint" />
+        </mxCell>
+
+        <!-- Contact Details section container -->
+        <mxCell id="detailsSection" value="SECTION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="125" y="160" width="600" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Contact Details heading -->
+        <mxCell id="detailsHeading" value="Contact Details" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="180" width="560" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- List items -->
+        <mxCell id="emailItem" value="• Email:  student@email.com" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#0000EE;" vertex="1" parent="1">
+          <mxGeometry x="165" y="222" width="520" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="githubItem" value="• GitHub:  github.com/your-username" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#0000EE;" vertex="1" parent="1">
+          <mxGeometry x="165" y="254" width="520" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="linkedinItem" value="• LinkedIn:  linkedin.com/in/your-username" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#0000EE;" vertex="1" parent="1">
+          <mxGeometry x="165" y="286" width="520" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- HR 2 -->
+        <mxCell id="hr2" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxPoint x="125" y="370" as="sourcePoint" />
+          <mxPoint x="725" y="370" as="targetPoint" />
+        </mxCell>
+
+        <!-- Send a Message section container -->
+        <mxCell id="formSection" value="SECTION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="125" y="385" width="600" height="420" as="geometry" />
+        </mxCell>
+
+        <!-- Send a Message heading -->
+        <mxCell id="formHeading" value="Send a Message" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="405" width="560" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Name field -->
+        <mxCell id="nameLabel" value="Your Name:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="145" y="445" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nameInput" value="[ Enter your name ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;spacingLeft=8;fontSize=12;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="145" y="467" width="560" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Email field -->
+        <mxCell id="emailLabel" value="Your Email:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="145" y="509" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="emailInput" value="[ name@example.com ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;spacingLeft=8;fontSize=12;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="145" y="531" width="560" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Message field -->
+        <mxCell id="messageLabel" value="Message:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="145" y="573" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="messageInput" value="[ Write your message here                    ]&#10;&#10;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;fontSize=12;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="145" y="595" width="560" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Send button -->
+        <mxCell id="sendButton" value="Send Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="715" width="160" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- HR 3 -->
+        <mxCell id="hr3" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxPoint x="125" y="825" as="sourcePoint" />
+          <mxPoint x="725" y="825" as="targetPoint" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="FOOTER&#10;Copyright © 2026 Student Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="125" y="840" width="600" height="45" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

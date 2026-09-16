@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-08-06T00:00:00.000Z" agent="Claude" version="22.1.0" type="device">
+  <diagram id="login-wireframe" name="Login Page Wireframe">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Page frame -->
+        <mxCell id="page" value="Login Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;verticalAlign=top;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="440" height="820" as="geometry" />
+        </mxCell>
+
+        <!-- Header -->
+        <mxCell id="header" value="HEADER&#10;User Login&#10;Access your account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="400" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Nav -->
+        <mxCell id="nav" value="NAV: ← Back to Home Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- HR 1 -->
+        <mxCell id="hr1" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxPoint x="60" y="195" as="sourcePoint" />
+          <mxPoint x="460" y="195" as="targetPoint" />
+        </mxCell>
+
+        <!-- Main section container -->
+        <mxCell id="main" value="MAIN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="400" height="360" as="geometry" />
+        </mxCell>
+
+        <!-- Log In heading -->
+        <mxCell id="loginHeading" value="Log In" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Username field -->
+        <mxCell id="usernameLabel" value="Username or Email:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="usernameInput" value="[ Enter username                    ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;spacingLeft=8;fontSize=12;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="80" y="292" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Password field -->
+        <mxCell id="passwordLabel" value="Password:" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="334" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="passwordInput" value="[ Enter password  (masked)          ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;spacingLeft=8;fontSize=12;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="80" y="356" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Login button -->
+        <mxCell id="loginButton" value="Login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- HR inside main -->
+        <mxCell id="hr2" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxPoint x="80" y="452" as="sourcePoint" />
+          <mxPoint x="440" y="452" as="targetPoint" />
+        </mxCell>
+
+        <!-- Register prompt -->
+        <mxCell id="registerText" value="Don't have an account yet?" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="464" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="registerLink" value="👉 Register here to create an account" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="360" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- HR 3 -->
+        <mxCell id="hr3" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" edge="1" parent="1">
+          <mxPoint x="60" y="590" as="sourcePoint" />
+          <mxPoint x="460" y="590" as="targetPoint" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="FOOTER&#10;Copyright © 2026 Student Name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="605" width="400" height="45" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram name="FAQ Page Wireframe" id="faq-wireframe">
+        <mxGraphModel dx="820" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1700" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="700" height="1560" as="geometry"/>
+                </mxCell>
+                <mxCell id="header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="700" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="h1" value="H1: Frequently Asked Questions" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="50" width="700" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hsub" value="Answers to common questions about this site" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="85" width="700" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="nav" value="← Back to Home Page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;align=left;spacingLeft=10;fontColor=#1155CC;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="140" width="700" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr1" value="" style="line;strokeWidth=1;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="180" width="700" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec1Box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="700" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2-1" value="H2: General Questions" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="210" width="400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="q1" value="H3: Q: Who built this website?" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="255" width="500" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="a1" value="A: This site was built by me as a personal project to practice HTML and web development fundamentals." style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="280" width="620" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="q2" value="H3: Q: What technologies are used?" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="325" width="500" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="a2" value="A: The site is built using plain HTML5, with C++ used separately for data structures and algorithm practice." style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="350" width="620" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="q3" value="H3: Q: How do I create an account?" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="395" width="500" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="a3" value="A: Go to the [Register page link] and fill out the registration form." style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="420" width="620" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="q4" value="H3: Q: How can I view your projects?" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="465" width="500" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="a4" value="A: Visit the [Portfolio page link] to see a full list of projects and skills." style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="490" width="620" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr2" value="" style="line;strokeWidth=1;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="780" width="700" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec2Box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="800" width="700" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2-2" value="H2: Account and Login" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="810" width="400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="q5" value="H3: Q: I forgot my password. What do I do?" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="855" width="550" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="a5" value="A: This is a static demo site, so password recovery is not yet implemented. Please contact the site owner directly." style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="880" width="620" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="q6" value="H3: Q: Is my data stored anywhere?" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="925" width="550" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="a6" value="A: No. This site currently has no backend or database connected, so no form data is stored." style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="950" width="620" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr3" value="" style="line;strokeWidth=1;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1110" width="700" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec3Box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1130" width="700" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="stillQ" value="Still have questions?" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1145" width="660" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="contactLink" value="&amp;nbsp;Reach out through the Contact page" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#1155CC;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1175" width="660" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr4" value="" style="line;strokeWidth=1;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1240" width="700" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="footer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1260" width="700" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="footerText" value="Copyright © 2026 Student Name" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1270" width="700" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
