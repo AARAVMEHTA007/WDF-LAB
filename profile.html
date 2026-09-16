@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile — Student Hub</title>
+    <link rel="stylesheet" href="../css/studentHub.css">
+</head>
+<body>
+   
+    <header>
+        <h1>Student Profile</h1>
+        <p>Personal and Academic Details</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="portfoil.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section style="text-align: center;">
+            <div class="avatar-glow-wrapper">
+                <div class="avatar-circle">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+            </div>
+            <h2>Student Name</h2>
+            <p>Computer Science Student | Web Development & Algorithms Enthusiast</p>
+        </section>
+
+        <section>
+            <h2>Personal Details</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Full Name</th>
+                        <td>Student Name</td>
+                    </tr>
+                    <tr>
+                        <th>Roll Number</th>
+                        <td>CS-2026-001</td>
+                    </tr>
+                    <tr>
+                        <th>Course</th>
+                        <td>B.Tech in Computer Science & Engineering</td>
+                    </tr>
+                    <tr>
+                        <th>Year</th>
+                        <td>2nd Year</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><a href="mailto:student@email.com">student@email.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Edit Profile</h2>
+            <form action="" method="">
+                <p>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" value="Student Name">
+                </p>
+                <p>
+                    <label for="bio">Short Bio:</label>
+                    <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself">Computer Science student passionate about competitive programming and web development.</textarea>
+                </p>
+                <p>
+                    <button type="submit">Save Changes</button>
+                </p>
+            </form>
+        </section>
+
+        <section style="text-align: center;">
+            <p><strong>Want to see my skills and projects?</strong></p>
+            <p style="margin-top: 12px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                <a href="skills.html"><button type="button"><i class="fas fa-code"></i> Skills Page</button></a>
+                <a href="portfoil.html"><button type="button" style="background: var(--bg-card); color: var(--primary); border: 1px solid var(--primary);"><i class="fas fa-briefcase"></i> Portfolio Page</button></a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="event.html">Events</a>
+            <a href="profile.html">Profile</a>
+            <a href="faq.html">FAQ</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="login.html">Login</a>
+        </div>
+        <p>Copyright © 2026 Student Name</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin — Student Hub</title>
+    <link rel="stylesheet" href="../css/studentHub.css">
+</head>
+<body>
+   
+    <header>
+        <h1>Admin Control Panel</h1>
+        <p>Restricted Portal — Management & Site Administration</p>
+    </header>
+
+    <nav>
+        <a href="../index.html"><i class="fas fa-arrow-left"></i> Back to Home Page</a>
+    </nav>
+
+    <main>
+        <section style="max-width: 580px; margin-left: auto; margin-right: auto;">
+            <h2><i class="fas fa-user-shield"></i> Administrator Authentication</h2>
+            <form action="" method="">
+                <p>
+                    <label for="admin-username"><i class="fas fa-user-tag"></i> Admin Username:</label>
+                    <input type="text" id="admin-username" name="admin-username" required placeholder="Enter admin username">
+                </p>
+                <p>
+                    <label for="admin-password"><i class="fas fa-lock"></i> Admin Password:</label>
+                    <input type="password" id="admin-password" name="admin-password" required placeholder="Enter admin password">
+                </p>
+                <p style="margin-top: 10px;">
+                    <button type="submit"><i class="fas fa-sign-in-alt"></i> Access Admin Console</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-chart-line"></i> Dashboard Management Overview</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Management Module</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong><i class="fas fa-calendar-check" style="color: var(--accent-emerald);"></i> Manage Events</strong></td>
+                        <td>Add, edit, or archive calendar entries on the Events portal</td>
+                    </tr>
+                    <tr>
+                        <td><strong><i class="fas fa-users" style="color: var(--accent-cyan);"></i> Manage Student Accounts</strong></td>
+                        <td>View registered student accounts, course enrollments, and permissions</td>
+                    </tr>
+                    <tr>
+                        <td><strong><i class="fas fa-comments" style="color: var(--accent-amber);"></i> View User Feedback</strong></td>
+                        <td>Read, analyze, and address feedback submitted by platform visitors</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section style="text-align: center;">
+            <p><i class="fas fa-shield-alt" style="color: var(--accent-amber);"></i> <em>Note: This is a static demo management interface. Interactive state simulation is active.</em></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2026 Student Hub</p>
+    </footer>
+</body>
+</html>

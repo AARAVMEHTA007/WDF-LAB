@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register — Student Hub</title>
+    <link rel="stylesheet" href="../css/studentHub.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Create an Account</h1>
+        <p>Register to Join the Student Hub Community</p>
+    </header>
+
+    <nav>
+        <a href="../index.html"><i class="fas fa-arrow-left"></i> Back to Home Page</a>
+        <a href="login.html"><i class="fas fa-sign-in-alt"></i> Existing User Login</a>
+    </nav>
+
+    <main>
+        <section style="max-width: 580px; margin-left: auto; margin-right: auto;">
+            <h2><i class="fas fa-user-plus"></i> Registration Form</h2>
+
+            <form action="" method="">
+                <p>
+                    <label for="fullname"><i class="fas fa-id-badge"></i> Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+                </p>
+
+                <p>
+                    <label for="email"><i class="fas fa-envelope"></i> Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="name@university.edu">
+                </p>
+
+                <p>
+                    <label for="new-password"><i class="fas fa-lock"></i> Password:</label>
+                    <input type="password" id="new-password" name="new-password" required placeholder="Create a strong password">
+                </p>
+
+                <p>
+                    <label for="confirm-password"><i class="fas fa-check-double"></i> Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Re-enter password">
+                </p>
+
+                <p style="margin-top: 10px;">
+                    <button type="submit"><i class="fas fa-user-check"></i> Complete Registration</button>
+                </p>
+            </form>
+        </section>
+
+        <section style="max-width: 580px; margin-left: auto; margin-right: auto; text-align: center;">
+            <p>Already registered with Student Hub?</p>
+            <p style="margin-top: 14px;">
+                <a href="login.html">
+                    <button type="button" style="background: transparent; border: 1.5px solid var(--accent-cyan); color: var(--text-main);"><i class="fas fa-sign-in-alt"></i> Click Here to Log In</button>
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2026 Student Hub</p>
+    </footer>
+</body>
+</html>

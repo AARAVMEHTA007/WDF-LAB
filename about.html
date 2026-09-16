@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me — Student Hub</title>
+    <link rel="stylesheet" href="../css/studentHub.css">
+</head>
+<body>
+   
+    <header>
+        <h1>About Me</h1>
+        <p>Personal Background, Academic Interests, and Developer Journey</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="portfoil.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="theme-toggle-wrapper">
+            <button type="button" class="theme-btn theme-btn-light active" id="theme-light-btn" aria-label="Light Mode"><i class="fas fa-sun"></i> Light</button>
+            <button type="button" class="theme-btn theme-btn-dark" id="theme-dark-btn" aria-label="Dark Mode"><i class="fas fa-moon"></i> Dark</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <section>
+            <div class="avatar-glow-wrapper">
+                <div class="avatar-circle">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+            </div>
+            <h2>Biographical Overview</h2>
+            <p>
+                Hi! I am a Computer Science undergraduate student with a strong passion for problem-solving, 
+                Data Structures and Algorithms (DSA), and front-end web engineering. 
+            </p>
+            <p>
+                My goal is to gain deep knowledge in software architecture, algorithm design, and building clean, 
+                user-friendly web applications that solve practical real-world challenges.
+            </p>
+        </section>
+
+        <section>
+            <h2>Academic Focus & Goals</h2>
+            <ul>
+                <li><strong>Data Structures & Algorithms:</strong> Practicing C++ implementations for arrays, linked lists, trees, graphs, and Big-O time complexity analysis.</li>
+                <li><strong>Web Development:</strong> Learning semantic HTML5, CSS design systems, JavaScript DOM manipulation, and responsive web design.</li>
+                <li><strong>Software Engineering Principles:</strong> Understanding Object-Oriented Programming (OOP), modular code structure, and Git version control.</li>
+            </ul>
+        </section>
+
+        <section style="text-align: center;">
+            <p><strong>Want to learn more about my background?</strong></p>
+            <p style="margin-top: 12px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                <a href="skills.html"><button type="button"><i class="fas fa-code"></i> View Skills</button></a>
+                <a href="education.html"><button type="button" style="background: var(--bg-card); color: var(--primary); border: 1px solid var(--primary);"><i class="fas fa-graduation-cap"></i> View Education</button></a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="event.html">Events</a>
+            <a href="profile.html">Profile</a>
+            <a href="faq.html">FAQ</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="login.html">Login</a>
+        </div>
+        <p><a href="../index.html">← Back to Main Home Page</a></p>
+        <p>Copyright © 2026 Student Name</p>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>

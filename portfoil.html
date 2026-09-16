@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Projects — Student Hub</title>
+    <link rel="stylesheet" href="../css/studentHub.css">
+</head>
+<body>
+   
+    <header>
+        <h1>My Projects & Portfolio</h1>
+        <p>A Showcase of My Practical Software Projects, Code Repositories, and Progress</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="portfoil.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="theme-toggle-wrapper">
+            <button type="button" class="theme-btn theme-btn-light active" id="theme-light-btn" aria-label="Light Mode"><i class="fas fa-sun"></i> Light</button>
+            <button type="button" class="theme-btn theme-btn-dark" id="theme-dark-btn" aria-label="Dark Mode"><i class="fas fa-moon"></i> Dark</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="projects">
+            <h2><i class="fas fa-folder-open"></i> Featured Projects</h2>
+            <ol>
+                <li>
+                    <h3>Personal Student Hub Website</h3>
+                    <p>
+                        <strong>Description:</strong> A multi-page student website featuring a structured 
+                        home page, dedicated About/Skills/Education pages, clean responsive layout, and dark/light theme switching.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript ES6</p>
+                </li>
+                <li>
+                    <h3>Data Structures Implementations</h3>
+                    <p>
+                        <strong>Description:</strong> A collection of efficient C++ implementations covering linked lists, 
+                        stacks, queues, trees, and search/sort algorithms.
+                    </p>
+                    <p><strong>Technologies:</strong> C++, STL, Algorithms</p>
+                </li>
+                <li>
+                    <h3>Basic Command-Line Calculator</h3>
+                    <p>
+                        <strong>Description:</strong> A simple utility program performing basic mathematical operations 
+                        and memory tracking.
+                    </p>
+                    <p><strong>Technologies:</strong> C++</p>
+                </li>
+            </ol>
+        </section>
+
+        <section style="text-align: center;">
+            <p><strong>Want to check out my technical skills or educational background?</strong></p>
+            <p style="margin-top: 12px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                <a href="skills.html"><button type="button"><i class="fas fa-code"></i> Technical Skills</button></a>
+                <a href="education.html"><button type="button" style="background: var(--bg-card); color: var(--primary); border: 1px solid var(--primary);"><i class="fas fa-graduation-cap"></i> Academic Education</button></a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="event.html">Events</a>
+            <a href="profile.html">Profile</a>
+            <a href="faq.html">FAQ</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="login.html">Login</a>
+        </div>
+        <p><a href="../index.html">← Back to Main Home Page</a></p>
+        <p>Copyright © 2026 Student Name</p>
+    </footer>
+</body>
+</html>

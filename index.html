@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home — Student Hub</title>
+    <link rel="stylesheet" href="css/studentHub.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Student Hub</h1>
+        <p>Student | Learning Web Development & Algorithm Engineering</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="page/about.html">About</a>
+        <a href="page/skills.html">Skills</a>
+        <a href="page/education.html">Education</a>
+        <a href="page/portfoil.html">Portfolio</a>
+        <a href="page/contact.html">Contact</a>
+
+        <div class="theme-toggle-wrapper">
+            <button type="button" class="theme-btn theme-btn-light active" id="theme-light-btn" aria-label="Light Mode"><i class="fas fa-sun"></i> Light</button>
+            <button type="button" class="theme-btn theme-btn-dark" id="theme-dark-btn" aria-label="Dark Mode"><i class="fas fa-moon"></i> Dark</button>
+        </div>
+    </nav>
+
+    <main>
+
+      
+        <section id="welcome" style="text-align: center;">
+            <div class="badge-pill">
+                <i class="fas fa-graduation-cap"></i> Computer Engineering & Cyer Security Expert
+            </div>
+            <div class="avatar-glow-wrapper">
+                <div class="avatar-circle">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+            </div>
+            <h2>Welcome to Student Hub</h2>
+            <p style="max-width: 650px; margin: 0 auto 20px;">
+                Hi! I am a Computer Engineering student passionate about programming, data structures, algorithm design, 
+                and building clean, accessible web applications. Welcome to my personal academic platform!
+            </p>
+
+            <!-- STATS ROW -->
+            <div class="hero-stats-row">
+                <div class="stat-card">
+                    <span class="stat-number">C++,PHP</span>
+                    <span class="stat-label">Core Languages</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Algorithm Topics</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Featured Projects</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2026</span>
+                    <span class="stat-label">Academic Portfolio</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPLORE HUB SECTION WITH THEMED GRID CARDS -->
+        <section>
+            <h2><i class="fas fa-compass" style="color: var(--primary);"></i> Explore Student Hub Pages</h2>
+            <p>Select any section below to view full details about my background, skills, academic records, and projects.</p>
+
+            <div class="explore-grid">
+                
+                <a href="page/about.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-user"></i></div>
+                    <h3>About Me</h3>
+                    <p>Personal background, bio, career goals, and student journey.</p>
+                    <div class="card-arrow">Explore Bio <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/skills.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Technical Skills</h3>
+                    <p>Programming languages, DSA concepts, problem-solving, and web tools.</p>
+                    <div class="card-arrow">View Skills <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/education.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Education</h3>
+                    <p>Degree details, coursework, GPA records, and academic institutions.</p>
+                    <div class="card-arrow">View Education <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/portfoil.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-folder-open"></i></div>
+                    <h3>Portfolio Projects</h3>
+                    <p>Featured C++ data structure implementations and web application projects.</p>
+                    <div class="card-arrow">View Projects <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/event.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h3>Events & Hackathons</h3>
+                    <p>Campus coding workshops, competitive programming contests, and events.</p>
+                    <div class="card-arrow">View Events <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/profile.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-id-card"></i></div>
+                    <h3>Student Profile</h3>
+                    <p>Student credentials, ID, department details, and account summary.</p>
+                    <div class="card-arrow">View Profile <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/contact.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Contact Me</h3>
+                    <p>Get in touch via email, social links, or send a direct message.</p>
+                    <div class="card-arrow">Contact Info <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/faq.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-question-circle"></i></div>
+                    <h3>FAQ</h3>
+                    <p>Frequently asked questions about my coursework, projects, and platform.</p>
+                    <div class="card-arrow">Read FAQ <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+                <a href="page/feedback.html" class="explore-card">
+                    <div class="card-header-icon"><i class="fas fa-comment-dots"></i></div>
+                    <h3>Feedback</h3>
+                    <p>Share your feedback, suggestions, or project comments.</p>
+                    <div class="card-arrow">Give Feedback <i class="fas fa-arrow-right"></i></div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- CTA CALLOUT SECTION -->
+        <section style="text-align: center; background: var(--bg-card);">
+            <h2>Ready to see my featured engineering projects?</h2>
+            <p>Explore my source code, C++ algorithms, and web tools on the Portfolio page.</p>
+            <p style="margin-top: 16px;">
+                <a href="page/portfoil.html">
+                    <button type="button"><i class="fas fa-briefcase"></i> Explore Full Portfolio</button>
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="page/event.html">Events</a>
+            <a href="page/profile.html">Profile</a>
+            <a href="page/faq.html">FAQ</a>
+            <a href="page/feedback.html">Feedback</a>
+            <a href="page/login.html">Login</a>
+        </div>
+        <p>Copyright © 2026 Student Name | Contact: <a href="mailto:student@email.com">student@email.com</a></p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
