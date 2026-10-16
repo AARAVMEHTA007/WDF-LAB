@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "title": "End-Semester Winter Examination 2026 Schedule",
+    "category": "Examinations",
+    "date": "2026-10-14",
+    "priority": "Urgent",
+    "issuedBy": "Controller of Examinations",
+    "targetAudience": "All B.Tech & MCA Students",
+    "description": "The final timetable for the End-Semester Theory and Practical Examinations has been published. Hall tickets will be available for download on the student ERP portal from October 20."
+  },
+  {
+    "id": 2,
+    "title": "Campus Recruitment Drive: Tata Consultancy Services (TCS)",
+    "category": "Placements",
+    "date": "2026-10-12",
+    "priority": "Important",
+    "issuedBy": "Training & Placement Cell",
+    "targetAudience": "B.Tech CE/IT Final Year (2027 Batch)",
+    "description": "TCS Digital and Ninja recruitment drive registrations are now live. Eligible candidates having CGPA >= 6.5 with zero active backlogs must register before October 18."
+  },
+  {
+    "id": 3,
+    "title": "Practical Lab Journal & Term Work Submission Deadline",
+    "category": "Academic",
+    "date": "2026-10-10",
+    "priority": "Urgent",
+    "issuedBy": "Department of Computer Engineering",
+    "targetAudience": "3rd & 5th Semester Students",
+    "description": "All enrolled students must get their continuous evaluation journals signed and verified by respective lab in-charges before the term end date. Late submissions will attract grade deductions."
+  },
+  {
+    "id": 4,
+    "title": "Annual Inter-College Tech Fest 'Cognizance 2026' Registrations",
+    "category": "Events",
+    "date": "2026-10-09",
+    "priority": "General",
+    "issuedBy": "Student Activities Council",
+    "targetAudience": "Open to All Departments",
+    "description": "Calling all innovators and coders! Registration portal is open for Hackathons, Robot Wars, Paper Presentations, and Web Design Competitions with prize pool exceeding ₹1,50,000."
+  },
+  {
+    "id": 5,
+    "title": "Diwali Vacation and Institutional Holiday Calendar",
+    "category": "Administration",
+    "date": "2026-10-07",
+    "priority": "General",
+    "issuedBy": "Registrar Office",
+    "targetAudience": "All Students, Faculty & Staff",
+    "description": "The university campus and academic departments will observe Diwali break from October 28 to November 05. Regular instructional classes will resume on November 06."
+  },
+  {
+    "id": 6,
+    "title": "Mid-Semester Remedial and Improvement Exam Notification",
+    "category": "Examinations",
+    "date": "2026-10-05",
+    "priority": "Important",
+    "issuedBy": "Examination Section",
+    "targetAudience": "Undergraduate Students with Attendance >= 75%",
+    "description": "Students seeking to improve internal assessment scores or those who missed exams on valid medical grounds must submit remedial forms along with requisite verification documents."
+  },
+  {
+    "id": 7,
+    "title": "Infosys Springboard Certification & Internship Opportunity",
+    "category": "Placements",
+    "date": "2026-10-03",
+    "priority": "Important",
+    "issuedBy": "Industry-Academia Relations Cell",
+    "targetAudience": "Pre-Final & Final Year Students",
+    "description": "Complimentary access to Infosys Springboard industry certificates in Cloud Computing, AI, and Full-Stack Engineering with direct fast-track interview tracks for top scorers."
+  },
+  {
+    "id": 8,
+    "title": "Central Library Book Return & Zero-Penalty Drive",
+    "category": "Administration",
+    "date": "2026-10-01",
+    "priority": "General",
+    "issuedBy": "Chief Librarian",
+    "targetAudience": "All Library Cardholders",
+    "description": "Return all overdue library circulation books between October 5 and October 15 to avail of a complete waiver on overdue fines prior to semester clearance."
+  },
+  {
+    "id": 9,
+    "title": "Hostel Fee Payment Deadline Extension for Term 2",
+    "category": "Administration",
+    "date": "2026-09-28",
+    "priority": "Important",
+    "issuedBy": "Chief Warden Office",
+    "targetAudience": "Hostel Residents",
+    "description": "Upon student council representations, the deadline to deposit semester hostel accommodation and mess charges has been extended until October 15 without late fee charges."
+  },
+  {
+    "id": 10,
+    "title": "Google Cloud Career Practitioner (GCCP) Program Kickoff",
+    "category": "Academic",
+    "date": "2026-09-25",
+    "priority": "General",
+    "issuedBy": "Google Developer Student Club (GDSC)",
+    "targetAudience": "Students passionate about Cloud & DevOps",
+    "description": "Join the official orientation for Google Cloud Career Practitioner pathway. Hands-on labs on Google Cloud Skills Boost with exclusive swags and certification vouchers."
+  },
+  {
+    "id": 11,
+    "title": "Mandatory Anti-Ragging Affidavit Submission",
+    "category": "Administration",
+    "date": "2026-09-20",
+    "priority": "Urgent",
+    "issuedBy": "Anti-Ragging Committee",
+    "targetAudience": "1st Year and Direct 2nd Year Entrants",
+    "description": "As per UGC directives, all newly enrolled students must submit the online anti-ragging affidavit reference number on the college portal immediately."
+  },
+  {
+    "id": 12,
+    "title": "NPTEL & SWAYAM Credit Transfer Course List",
+    "category": "Academic",
+    "date": "2026-09-18",
+    "priority": "Important",
+    "issuedBy": "Academic Deanery",
+    "targetAudience": "Semester 5 & 7 B.Tech Students",
+    "description": "Approved list of 12-week NPTEL MOOC courses for MOOC elective credit transfer (3 credits) for the upcoming academic session has been released."
+  },
+  {
+    "id": 13,
+    "title": "Pre-Placement Soft Skills & Aptitude Boot Camp",
+    "category": "Placements",
+    "date": "2026-09-15",
+    "priority": "Important",
+    "issuedBy": "Career Development Centre",
+    "targetAudience": "Semester 6 & 7 Students",
+    "description": "Intensive 40-hour boot camp covering Quantitative Aptitude, Logical Reasoning, Mock Group Discussions, and Technical Interviews commencing next Monday."
+  },
+  {
+    "id": 14,
+    "title": "National Science Day Inter-University Model Exhibition",
+    "category": "Events",
+    "date": "2026-09-12",
+    "priority": "General",
+    "issuedBy": "R&D Cell",
+    "targetAudience": "All Engineering Disciplines",
+    "description": "Submit working hardware models and software prototypes on themes of 'Sustainable Energy and AI for Humanity'. Seed funding grants awarded to top 5 innovative prototypes."
+  },
+  {
+    "id": 15,
+    "title": "Student Grievance Redressal Portal Launch",
+    "category": "Administration",
+    "date": "2026-09-10",
+    "priority": "General",
+    "issuedBy": "Internal Quality Assurance Cell (IQAC)",
+    "targetAudience": "All Enrolled Students",
+    "description": "A centralized digital ticket system has been inaugurated to streamline student requests regarding academic records, fee receipts, transport, and campus facilities."
+  },
+  {
+    "id": 16,
+    "title": "Blood Donation & Health Check-up Camp by Red Cross",
+    "category": "Events",
+    "date": "2026-09-05",
+    "priority": "General",
+    "issuedBy": "NSS & Youth Red Cross Chapter",
+    "targetAudience": "Students & Staff Volunteers",
+    "description": "Join hands for the annual voluntary blood donation drive at College Gymnasium from 10:00 AM to 04:00 PM. Donors will receive certificate and donor credit cards."
+  },
+  {
+    "id": 17,
+    "title": "Winter Semester Course Registration & Elective Selection",
+    "category": "Academic",
+    "date": "2026-11-01",
+    "priority": "Urgent",
+    "issuedBy": "Academic Office",
+    "targetAudience": "All Even Semester Students",
+    "description": "Online course registration window for Winter Semester 2027 is now open on the ERP portal. Students must finalize elective choices by November 10. Late registrations will not be entertained."
+  },
+  {
+    "id": 18,
+    "title": "Wipro TalentNext Scholarship Program Applications",
+    "category": "Placements",
+    "date": "2026-11-05",
+    "priority": "Important",
+    "issuedBy": "Corporate Relations Office",
+    "targetAudience": "Top 20% CGPA Students — All Branches",
+    "description": "Wipro TalentNext is accepting applications for its annual merit scholarship of ₹25,000 per annum. Shortlisted candidates also receive guaranteed interview calls for Wipro Elite roles."
+  },
+  {
+    "id": 19,
+    "title": "NBA Accreditation Peer Team Visit — Campus Preparation",
+    "category": "Administration",
+    "date": "2026-11-08",
+    "priority": "Urgent",
+    "issuedBy": "IQAC & Administration",
+    "targetAudience": "All Faculty, Staff & Students",
+    "description": "The NBA peer review committee will visit on November 20-22. All departments must ensure lab readiness, attendance records, and project portfolios are updated and available for inspection."
+  },
+  {
+    "id": 20,
+    "title": "Annual Prize Distribution & Academic Excellence Ceremony",
+    "category": "Events",
+    "date": "2026-11-15",
+    "priority": "General",
+    "issuedBy": "Vice Chancellor's Office",
+    "targetAudience": "Award Recipients, Faculty & Invited Guests",
+    "description": "The Annual Convocation and Prize Distribution ceremony will be held at the Convention Centre. Merit rank holders, best project awardees, and sports champions will be felicitated."
+  },
+  {
+    "id": 21,
+    "title": "Inter-College Robotics Expo Team Registrations Open",
+    "category": "Events",
+    "date": "2026-11-18",
+    "priority": "General",
+    "issuedBy": "Robotics Club & SAC",
+    "targetAudience": "B.Tech Students (All Branches)",
+    "description": "Registrations are officially open for Robowars, Line Follower, and Maze Solver events. Team size is limited to 4 members. Hardware kits will be allocated on a first-come basis."
+  },
+  {
+    "id": 22,
+    "title": "Microsoft Imagine Cup Student Mentorship Cohort 2027",
+    "category": "Placements",
+    "date": "2026-11-20",
+    "priority": "Important",
+    "issuedBy": "Industry-Academia Relations Cell",
+    "targetAudience": "Pre-Final & Final Year Innovators",
+    "description": "Selected student teams will receive 1-on-1 mentorship from Microsoft senior engineers, Azure cloud credits up to $1,000, and fast-track interviews for Microsoft summer internships."
+  },
+  {
+    "id": 23,
+    "title": "Final Submission Window for Major Project Synopsis",
+    "category": "Academic",
+    "date": "2026-11-22",
+    "priority": "Urgent",
+    "issuedBy": "Department Academic Committee",
+    "targetAudience": "7th Semester CE & IT Students",
+    "description": "All capstone project teams must upload their finalized project synopsis, system architecture diagrams, and guide approval certificates on the portal by November 30."
+  },
+  {
+    "id": 24,
+    "title": "Campus Wi-Fi Infrastructure Upgrade Maintenance Notice",
+    "category": "Administration",
+    "date": "2026-11-25",
+    "priority": "General",
+    "issuedBy": "IT Infrastructure Cell",
+    "targetAudience": "Campus Residents & Lab Users",
+    "description": "High-speed Wi-Fi 6 access points will be deployed across Academic Blocks and Hostels on Saturday midnight. Intermittent connectivity is expected from 12:00 AM to 04:00 AM."
+  },
+  {
+    "id": 25,
+    "title": "Special Supplementary Examination Timetable Declaration",
+    "category": "Examinations",
+    "date": "2026-11-28",
+    "priority": "Urgent",
+    "issuedBy": "Controller of Examinations",
+    "targetAudience": "Students with Remedial Backlog Subjects",
+    "description": "Detailed schedule for the Special Supplementary Examination has been published. Eligible students must submit examination forms along with fee challans before December 05."
+  },
+  {
+    "id": 26,
+    "title": "Seed Funding Grant of ₹5 Lakhs for Student AI Startups",
+    "category": "Events",
+    "date": "2026-12-01",
+    "priority": "Important",
+    "issuedBy": "E-Cell & Institutional Incubation Council",
+    "targetAudience": "Aspiring Student Founders & Innovators",
+    "description": "Applications are invited for the Student Entrepreneurship Grant 2026-27. Top 3 AI and CleanTech student startups will receive prototype grants, co-working space, and patent filing support."
+  },
+  {
+    "id": 27,
+    "title": "Google Student Developer Club (GDSC) Core Team Applications",
+    "category": "Academic",
+    "date": "2026-12-03",
+    "priority": "General",
+    "issuedBy": "GDSC Faculty Advisor",
+    "targetAudience": "2nd & 3rd Year Students",
+    "description": "GDSC is recruiting core team leads for Web Development, Machine Learning, Cloud, and Event Management tracks. Interested students should submit their GitHub and LinkedIn profiles."
+  },
+  {
+    "id": 28,
+    "title": "Late Fine Penalty Waiver on Pending Tuition Fee Payments",
+    "category": "Administration",
+    "date": "2026-12-06",
+    "priority": "Important",
+    "issuedBy": "Accounts & Finance Section",
+    "targetAudience": "Students with Pending Semester Dues",
+    "description": "The Finance Committee has announced a special 10-day window from December 10 to December 20 waiving all late submission penalties on semester tuition fee balances."
+  },
+  {
+    "id": 29,
+    "title": "Amazon AWS Academy Cloud Certification Scholarship Window",
+    "category": "Placements",
+    "date": "2026-12-10",
+    "priority": "Important",
+    "issuedBy": "Cloud Center of Excellence",
+    "targetAudience": "Students enrolled in Cloud Electives",
+    "description": "100 complimentary exam vouchers for AWS Certified Cloud Practitioner and Solutions Architect Associate exams will be awarded based on mock assessment performance on December 18."
+  },
+  {
+    "id": 30,
+    "title": "Hostel Room Allotment Rules for Upcoming Academic Session",
+    "category": "Administration",
+    "date": "2026-12-15",
+    "priority": "General",
+    "issuedBy": "Chief Warden Office",
+    "targetAudience": "Hostel Residents & New Applicants",
+    "description": "Room reallocation guidelines, biometric check-in policies, and night curfew timings for the upcoming semester have been revised. Download the handbook from the university intranet."
+  },
+  {
+    "id": 31,
+    "title": "Semester Grade Improvement & Photocopy Application Form",
+    "category": "Examinations",
+    "date": "2026-12-18",
+    "priority": "Important",
+    "issuedBy": "Evaluation Section",
+    "targetAudience": "Undergraduate Students",
+    "description": "Students wishing to obtain assessed answer script photocopies or apply for grade verification must fill out the Exam Cell Form 4 within 15 days of result declaration."
+  },
+  {
+    "id": 32,
+    "title": "Guidelines for Paper Submissions in CHARUSAT Tech Journal",
+    "category": "Academic",
+    "date": "2026-12-22",
+    "priority": "General",
+    "issuedBy": "R&D Editorial Board",
+    "targetAudience": "Faculty, Research Scholars & UG Students",
+    "description": "Call for research papers for Vol. 14 of the CHARUSAT Journal of Technology. Selected high-impact papers will be forwarded for Scopus indexation with zero publication fees."
+  },
+  {
+    "id": 33,
+    "title": "Annual Sports Meet 'Athlos 2026' Trial Schedule",
+    "category": "Events",
+    "date": "2026-12-24",
+    "priority": "General",
+    "issuedBy": "Department of Physical Education",
+    "targetAudience": "All Campus Athletes",
+    "description": "Department selection trials for Cricket, Football, Basketball, Badminton, and Table Tennis will be held on the university grounds between January 04 and January 08."
+  },
+  {
+    "id": 34,
+    "title": "Accenture Innovation Challenge 2026 Shortlisted Teams",
+    "category": "Placements",
+    "date": "2026-12-28",
+    "priority": "Important",
+    "issuedBy": "Training & Placement Cell",
+    "targetAudience": "Participating Teams & Faculty Mentors",
+    "description": "Hearty congratulations to the 6 student teams from Computer Engineering and IT shortlisted for the National Semifinals of Accenture Innovation Challenge. Mentorship boot camp begins Monday."
+  },
+  {
+    "id": 35,
+    "title": "Mid-Term Academic Progress Reports Sent to Parents via ERP",
+    "category": "Academic",
+    "date": "2027-01-04",
+    "priority": "General",
+    "issuedBy": "Academic Deanery",
+    "targetAudience": "All B.Tech Students & Guardians",
+    "description": "Consolidated midterm reports showing subject-wise attendance percentages, internal assessment marks, and mentor remarks have been dispatched via SMS and ERP portal."
+  },
+  {
+    "id": 36,
+    "title": "Cyber Security Awareness Month & Phishing Simulation Drill",
+    "category": "Administration",
+    "date": "2027-01-08",
+    "priority": "Important",
+    "issuedBy": "Chief Information Security Officer (CISO)",
+    "targetAudience": "All University Email Account Holders",
+    "description": "Do not share OTPs or ERP login credentials. An unannounced ethical phishing simulation will be conducted across campus mailboxes to evaluate cybersecurity hygiene."
+  },
+  {
+    "id": 37,
+    "title": "Foreign University Student Exchange Program (Summer 2027)",
+    "category": "Academic",
+    "date": "2027-01-12",
+    "priority": "Important",
+    "issuedBy": "International Relations Office",
+    "targetAudience": "Semester 4 & 6 B.Tech Students (CGPA >= 8.5)",
+    "description": "Applications are invited for a 6-week summer research internship at partner universities in Germany, Canada, and Singapore with partial travel scholarships."
+  },
+  {
+    "id": 38,
+    "title": "Notice Regarding Mandatory 85% Minimum Lab Attendance Rule",
+    "category": "Academic",
+    "date": "2027-01-16",
+    "priority": "Urgent",
+    "issuedBy": "Office of Academic Affairs",
+    "targetAudience": "All Practical Lab Batches",
+    "description": "Strict compliance with 85% minimum practical laboratory attendance is mandatory to be eligible for end-semester practical examinations. Defaulter lists will be finalized by month end."
+  },
+  {
+    "id": 39,
+    "title": "Deloitte Graduate Technology Internship Assessment Dates",
+    "category": "Placements",
+    "date": "2027-01-20",
+    "priority": "Urgent",
+    "issuedBy": "Corporate Placement Bureau",
+    "targetAudience": "Registered Pre-Final Year Students",
+    "description": "Deloitte USI online technical coding and analytical aptitude assessment will be hosted in Computer Centers 1, 2, and 3 this Saturday from 10:00 AM sharp. Bring college photo ID."
+  },
+  {
+    "id": 40,
+    "title": "Winter Vacation Library 24x7 Reading Room Extended Hours",
+    "category": "Administration",
+    "date": "2027-01-25",
+    "priority": "General",
+    "issuedBy": "Central Library Directorate",
+    "targetAudience": "Competitive Exam Aspirants & Researchers",
+    "description": "In view of GATE, GRE, and civil services examination preparation, the Air-Conditioned Central Reading Room on the 2nd Floor will remain accessible 24 hours a day with biometric security."
+  }
+]
