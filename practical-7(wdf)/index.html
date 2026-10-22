@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Hub Portal - Practical 7</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="top-banner">
+    <h1>🎓 Student Hub Portal</h1>
+    <p>Web Development Framework Lab &nbsp;|&nbsp; Practical 7: PHP Form Processing &amp; CSV/JSON File Storage</p>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li class="active" id="nav-form"><button onclick="showTab('form-section', this)">📝 Registration Form</button></li>
+      <li id="nav-records"><button onclick="showTab('records-section', this)">📊 Stored Submissions</button></li>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="page-wrapper">
+
+    <!-- Alerts -->
+    <div id="alert-success" class="alert alert-success" style="display:none;"></div>
+    <div id="alert-danger" class="alert alert-danger" style="display:none;"></div>
+
+    <!-- ===================== TAB 1: REGISTRATION FORM ===================== -->
+    <section id="form-section">
+      <div class="panel">
+        <div class="panel-heading">Student Registration Form</div>
+        <div class="panel-body">
+          <p class="panel-desc">
+            Fill in the form below and click <strong>Submit</strong>. All fields are required.
+            Data is validated and saved to server-side CSV &amp; JSON storage via PHP POST method.
+          </p>
+
+          <form id="student-form" action="process.php" method="POST" novalidate>
+            <input type="hidden" name="csrf_token" id="csrf_token" value="demo_csrf_p7">
+
+            <table class="form-table">
+              <tr>
+                <td><label for="fullName">Full Name <span class="required">*</span></label></td>
+                <td>
+                  <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Enter your full name">
+                  <span class="error-text" id="err-fullName"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Email Address <span class="required">*</span></label></td>
+                <td>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="example@student.edu">
+                  <span class="error-text" id="err-email"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="rollNo">Roll Number <span class="required">*</span></label></td>
+                <td>
+                  <input type="text" id="rollNo" name="rollNo" class="form-control" placeholder="e.g. 23WDF042">
+                  <span class="error-text" id="err-rollNo"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="department">Department <span class="required">*</span></label></td>
+                <td>
+                  <select id="department" name="department" class="form-select">
+                    <option value="">-- Select Department --</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Electronics &amp; Telecom">Electronics &amp; Telecom</option>
+                  </select>
+                  <span class="error-text" id="err-department"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="courseYear">Academic Year <span class="required">*</span></label></td>
+                <td>
+                  <select id="courseYear" name="courseYear" class="form-select">
+                    <option value="">-- Select Year --</option>
+                    <option value="1st Year">1st Year</option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="4th Year">4th Year</option>
+                  </select>
+                  <span class="error-text" id="err-courseYear"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="phone">Phone Number <span class="required">*</span></label></td>
+                <td>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="10-digit mobile number">
+                  <span class="error-text" id="err-phone"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="city">City <span class="required">*</span></label></td>
+                <td>
+                  <input type="text" id="city" name="city" class="form-control" placeholder="e.g. Ahmedabad">
+                  <span class="error-text" id="err-city"></span>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="message">Remarks / Notes <span class="required">*</span></label></td>
+                <td>
+                  <textarea id="message" name="message" class="form-control" placeholder="Enter any additional remarks or reason for registration..."></textarea>
+                  <span class="error-text" id="err-message"></span>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td style="padding-top: 12px;">
+                  <button type="submit" class="btn btn-primary">Submit via POST</button>
+                  &nbsp;
+                  <button type="reset" class="btn btn-secondary">Reset Form</button>
+                </td>
+              </tr>
+            </table>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TAB 2: STORED SUBMISSIONS ===================== -->
+    <section id="records-section" style="display:none;">
+      <div class="panel">
+        <div class="panel-heading">Stored Submissions — CSV / JSON File Storage</div>
+        <div class="panel-body">
+          <p class="panel-desc">
+            Records submitted through the form are stored on the server in both
+            <strong>CSV</strong> (<code>data/submissions.csv</code>) and
+            <strong>JSON</strong> (<code>data/submissions.json</code>) formats.
+          </p>
+
+          <div class="format-bar">
+            <span class="format-label">View Format:</span>
+            <button class="btn btn-primary" id="btn-json" onclick="loadRecords('json')">JSON File Records</button>
+            <button class="btn btn-secondary" id="btn-csv" onclick="loadRecords('csv')">CSV File Records</button>
+            <button class="btn btn-warning" onclick="loadRecords(currentFormat)">↻ Refresh</button>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Full Name</th>
+                  <th>Roll No</th>
+                  <th>Department</th>
+                  <th>Year</th>
+                  <th>Email</th>
+                  <th>Phone</th>
+                  <th>City</th>
+                  <th>Submitted At</th>
+                </tr>
+              </thead>
+              <tbody id="records-tbody">
+                <tr><td colspan="9" style="text-align:center; color:#888;">Click a format button above to load records.</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Raw JSON / CSV Output Box -->
+          <div id="raw-output-section" style="margin-top:20px; display:none;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+              <strong id="raw-output-label" style="font-size:13px; color:#00474f;">📄 Raw JSON File Output (data/submissions.json)</strong>
+              <button class="btn btn-secondary" onclick="copyRawOutput()" style="font-size:12px; padding:4px 12px;">📋 Copy</button>
+            </div>
+            <pre id="raw-output-box" style="
+              background-color: #1a2e2e;
+              color: #b2dfdb;
+              padding: 14px;
+              font-size: 12px;
+              font-family: 'Courier New', monospace;
+              border: 1px solid #004d40;
+              border-radius: 3px;
+              overflow-x: auto;
+              max-height: 320px;
+              overflow-y: auto;
+              white-space: pre;
+              line-height: 1.6;
+            "></pre>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </div><!-- end page-wrapper -->
+
+  <!-- Footer - always at bottom of page -->
+  <div class="footer">
+    Student Hub Portal &nbsp;&bull;&nbsp; Web Development Framework Lab &nbsp;&bull;&nbsp; Practical 7
+  </div>
+
+  <script src="./js/app.js"></script>
+
+</body>
+</html>

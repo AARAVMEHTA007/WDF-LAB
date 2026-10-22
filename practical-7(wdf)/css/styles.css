@@ -1,0 +1,365 @@
+/* ==========================================================================
+   Student Hub Portal - Simple Clean Stylesheet
+   Color Theme: Teal + Amber
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f6f6;
+  color: #1a2e2e;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Makes main content area grow to push footer down */
+.page-wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 15px;
+  flex-grow: 1;
+}
+
+/* Top Banner */
+.top-banner {
+  background-color: #00474f;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 20px;
+}
+
+.top-banner h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.top-banner p {
+  font-size: 13px;
+  color: #b2dfdb;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #00695c;
+  padding: 0;
+  border-bottom: 3px solid #ffb300;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a,
+.navbar ul li button {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.navbar ul li a:hover,
+.navbar ul li button:hover,
+.navbar ul li.active a,
+.navbar ul li.active button {
+  background-color: #ffb300;
+  color: #1a2e2e;
+}
+
+/* Page Layout */
+.page-wrapper {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 15px;
+  flex: 1;
+}
+
+/* Alert Boxes */
+.alert {
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #3c763d;
+  color: #3c763d;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #a94442;
+  color: #a94442;
+}
+
+/* Cards / Panels */
+.panel {
+  background-color: #ffffff;
+  border: 1px solid #b2dfdb;
+  margin-bottom: 20px;
+}
+
+.panel-heading {
+  background-color: #00695c;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid #ffb300;
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.panel-desc {
+  color: #666666;
+  font-size: 13px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* Form Layout */
+.form-table {
+  width: 100%;
+}
+
+.form-table tr td {
+  padding: 8px 5px;
+  vertical-align: top;
+}
+
+.form-table tr td:first-child {
+  width: 200px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #00474f;
+}
+
+.form-control,
+.form-select {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #bbbbbb;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  border-radius: 2px;
+  outline: none;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #00695c;
+  background-color: #e0f2f1;
+}
+
+.form-control.is-invalid,
+.form-select.is-invalid {
+  border-color: #cc0000;
+  background-color: #fff5f5;
+}
+
+.error-text {
+  color: #cc0000;
+  font-size: 12px;
+  display: none;
+}
+
+.error-text.active {
+  display: block;
+}
+
+.required {
+  color: #cc0000;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-family: Arial, sans-serif;
+  border-radius: 2px;
+}
+
+.btn-primary {
+  background-color: #00695c;
+  color: #ffffff;
+  border-color: #004d40;
+}
+
+.btn-primary:hover {
+  background-color: #004d40;
+}
+
+.btn-secondary {
+  background-color: #eeeeee;
+  color: #333333;
+  border-color: #cccccc;
+}
+
+.btn-secondary:hover {
+  background-color: #dddddd;
+}
+
+.btn-warning {
+  background-color: #ffb300;
+  color: #1a2e2e;
+  border-color: #e65100;
+}
+
+.btn-warning:hover {
+  background-color: #e65100;
+  color: #ffffff;
+}
+
+/* Table Styles */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.data-table th {
+  background-color: #00695c;
+  color: #ffffff;
+  padding: 9px 10px;
+  text-align: left;
+  border: 1px solid #004d40;
+}
+
+.data-table td {
+  padding: 8px 10px;
+  border: 1px solid #b2dfdb;
+  vertical-align: top;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #e0f2f1;
+}
+
+.data-table tr:hover {
+  background-color: #b2dfdb;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Lab Specification Table */
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+.spec-table th,
+.spec-table td {
+  border: 1px solid #b2dfdb;
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+.spec-table th {
+  background-color: #e0f2f1;
+  color: #00474f;
+  font-weight: bold;
+  width: 25%;
+}
+
+/* Viva Q&A Boxes */
+.qa-item {
+  border: 1px solid #b2dfdb;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  background-color: #f2f9f8;
+  border-left: 4px solid #00695c;
+}
+
+.qa-item h4 {
+  color: #00474f;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.qa-item p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #444444;
+}
+
+/* Footer */
+.footer {
+  background-color: #00474f;
+  color: #b2dfdb;
+  text-align: center;
+  padding: 14px;
+  font-size: 12px;
+  margin-top: auto;
+}
+
+/* Record Format Toggle Bar */
+.format-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.format-label {
+  font-weight: bold;
+  font-size: 13px;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .form-table tr td:first-child {
+    width: auto;
+    display: block;
+    padding-bottom: 3px;
+  }
+  .form-table td {
+    display: block;
+    width: 100%;
+  }
+}

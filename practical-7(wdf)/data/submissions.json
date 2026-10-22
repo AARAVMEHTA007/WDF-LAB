@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "fullName": "Aarav Mehta",
+    "email": "aarav.mehta@student.edu",
+    "rollNo": "23WDF042",
+    "department": "Computer Science",
+    "courseYear": "3rd Year",
+    "phone": "9876543210",
+    "city": "Mumbai",
+    "message": "Interested in participating in the annual hackathon.",
+    "submittedAt": "2026-09-29 14:30:15",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "id": 2,
+    "fullName": "Priya Sharma",
+    "email": "priya.sharma@student.edu",
+    "rollNo": "23WDF018",
+    "department": "Information Technology",
+    "courseYear": "2nd Year",
+    "phone": "9812345678",
+    "city": "Pune",
+    "message": "Requesting information regarding AI workshop registration.",
+    "submittedAt": "2026-09-29 16:45:22",
+    "ipAddress": "127.0.0.1"
+  }
+]
